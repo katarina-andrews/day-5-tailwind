@@ -4,18 +4,146 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <title>Document</title>
+    <title>Gas Giants</title>
   </head>
   <body>
-    <header>
-      <nav></nav>
-      <section class="bg-[url()]"></section>
+    <header
+      id="home"
+      class="bg-[url(images/space.jpg)] bg-no-repeat bg-cover text-white"
+    >
+      <nav class="py-5 text-[18px]">
+        <div>
+          <ul class="flex flex-wrap justify-around">
+            <li class="hover:underline"><a href="#home">Home</a></li>
+            <li class="hover:underline"><a href="#about">About</a></li>
+            <li class="hover:underline">
+              <a href="#additional">Additional Info</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <section class="text-center px-20 pb-15">
+        <h1 class="text-4xl font-extrabold md:text-5xl lg:text-6xl p-3">
+          Gas Giants
+        </h1>
+        <p id="about" class="text-xl">
+          A
+          <a
+            href="https://science.nasa.gov/exoplanets/gas-giant/"
+            class="hover:underline"
+            >gas giant</a
+          >
+          is a large planet mostly composed of helium and/or hydrogen. These
+          planets don’t have hard surfaces and instead have swirling gases above
+          a solid core.
+        </p>
+      </section>
     </header>
-    <main>
-      <section></section>
-      <section></section>
-      <section></section>
+    <main
+      class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-5 pt-5"
+    >
+      <section class="w-fit h-fit rounded-b-lg">
+        <h2 class="text-center text-3xl hover:underline">
+          <a href="https://science.nasa.gov/neptune/neptune-facts/">Neptune</a>
+        </h2>
+        <img
+          src="images/neptune.jpg"
+          alt="neptune"
+          class="w-full h-full object-cover p-1"
+        />
+        <p class="p-1">
+          Neptune is the eighth, and most distant planet from the Sun. It’s the
+          fourth-largest, and the first planet discovered with math. The ice
+          giant Neptune is more than 30 times as far from the Sun as Earth.
+          Neptune is the only planet in our solar system not visible to the
+          naked eye. Its atmosphere (made up mostly of hydrogen, helium, and
+          methane) extends to great depths, gradually merging into water and
+          other melted ices over a heavier, solid core with about the same mass
+          as Earth. Neptune has 16 known moons.
+        </p>
+      </section>
+      <section class="w-fit h-fit rounded-b-lg">
+        <h2 class="text-center text-3xl hover:underline">
+          <a href="https://science.nasa.gov/saturn/facts/">Saturn</a>
+        </h2>
+        <img
+          src="images/saturn.jpg"
+          alt="saturn"
+          class="w-full h-full object-cover p-1"
+        />
+        <p class="p-1">
+          Saturn is the sixth planet from the Sun and the second largest planet
+          in our solar system. Saturn is a massive ball made mostly of hydrogen
+          and helium. Saturn is not the only planet to have rings, but none are
+          as spectacular or as complex as Saturn's. Saturn also has dozens of
+          moons. From the jets of water that spray from Saturn's moon
+          Enceladus to the methane lakes on smoggy Titan, the Saturn system is a
+          rich source of scientific discovery and still holds many mysteries.
+        </p>
+      </section>
+      <section class="w-fit h-fit rounded-b-lg">
+        <h2 class="text-center text-3xl hover:underline">
+          <a href="https://science.nasa.gov/uranus/facts/">Uranus</a>
+        </h2>
+        <img
+          src="images/uranus.jpg"
+          alt="uranus"
+          class="w-full h-full object-cover p-1"
+        />
+        <p class="p-1">
+          Uranus is the seventh planet from the Sun, and the third largest
+          planet in our solar system. Uranus is very cold and windy. It is
+          surrounded by faint rings, and more than two dozen small moons. It
+          rotates at a nearly 90-degree angle from the plane of its orbit. This
+          unique tilt makes Uranus appear to spin on its side. Uranus was the
+          first planet found with the aid of a telescope. Uranus' atmosphere is
+          mostly hydrogen and helium, with a small amount of methane and traces
+          of water and ammonia. The methane gives Uranus its signature blue
+          color.
+        </p>
+      </section>
+      <section class="w-fit h-fit rounded-b-lg">
+        <h2 class="text-center text-3xl hover:underline">
+          <a href="https://science.nasa.gov/jupiter/jupiter-facts/">Jupiter</a>
+        </h2>
+        <img
+          src="images/jupiter.jpg"
+          alt="jupiter"
+          class="w-full h-full object-cover p-1"
+        />
+        <p class="p-1">
+          Jupiter is the largest and oldest planet in our solar system. If
+          Jupiter was a hollow shell, 1,000 Earths could fit inside. Jupiter has
+          the shortest day in the solar system, taking about 9.9 hours to spin
+          around once on its axis. 
+          The top cloud is probably made of
+          ammonia ice, while the middle layer is likely made of ammonium
+          hydrosulfide crystals. The innermost layer may be made of water ice
+          and vapor. Jupiter’s iconic Great Red Spot is a giant storm bigger
+          than Earth that has raged for hundreds of years.
+        </p>
+      </section>
     </main>
-    <footer></footer>
+    <footer id="additional">
+      <ul
+        class="flex flex-wrap justify-start gap-3 mt-5 p-5 bg-black text-white"
+      >
+        <li class="hover:underline">
+          <a
+            href="https://youtu.be/P9OG4stArmo?si=wWD28VTV2RL1RxjW"
+            target="_blank"
+            >The Gas Giants Explained</a
+          >
+        </li>
+        <li class="hover:underline">
+          <a
+            href="https://eyes.nasa.gov/apps/solar-system/#/home"
+            target="_blank"
+            >Virtual Solar System</a
+          >
+        </li>
+        
+      </ul>
+    </footer>
   </body>
 </html>
