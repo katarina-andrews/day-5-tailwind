@@ -16,7 +16,9 @@
           <ul class="flex flex-wrap justify-around">
             <li class="hover:underline"><a href="#home">Home</a></li>
             <li class="hover:underline"><a href="#about">About</a></li>
-            <li class="hover:underline"><a href="#contact">Contact</a></li>
+            <li class="hover:underline">
+              <a href="#additional">Additional Info</a>
+            </li>
           </ul>
         </div>
       </nav>
@@ -24,7 +26,7 @@
         <h1 class="text-4xl font-extrabold md:text-5xl lg:text-6xl p-3">
           Gas Giants
         </h1>
-        <p id="about">
+        <p id="about" class="text-xl">
           A
           <a
             href="https://science.nasa.gov/exoplanets/gas-giant/"
@@ -41,7 +43,7 @@
       class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-5 pt-5"
     >
       <section class="w-fit h-fit rounded-b-lg">
-        <h2 class="text-center text-2xl hover:underline">
+        <h2 class="text-center text-3xl hover:underline">
           <a href="https://science.nasa.gov/neptune/neptune-facts/">Neptune</a>
         </h2>
         <img
@@ -61,7 +63,7 @@
         </p>
       </section>
       <section class="w-fit h-fit rounded-b-lg">
-        <h2 class="text-center text-2xl hover:underline">
+        <h2 class="text-center text-3xl hover:underline">
           <a href="https://science.nasa.gov/saturn/facts/">Saturn</a>
         </h2>
         <img
@@ -80,7 +82,7 @@
         </p>
       </section>
       <section class="w-fit h-fit rounded-b-lg">
-        <h2 class="text-center text-2xl hover:underline">
+        <h2 class="text-center text-3xl hover:underline">
           <a href="https://science.nasa.gov/uranus/facts/">Uranus</a>
         </h2>
         <img
@@ -101,7 +103,7 @@
         </p>
       </section>
       <section class="w-fit h-fit rounded-b-lg">
-        <h2 class="text-center text-2xl hover:underline">
+        <h2 class="text-center text-3xl hover:underline">
           <a href="https://science.nasa.gov/jupiter/jupiter-facts/">Jupiter</a>
         </h2>
         <img
@@ -113,18 +115,35 @@
           Jupiter is the largest and oldest planet in our solar system. If
           Jupiter was a hollow shell, 1,000 Earths could fit inside. Jupiter has
           the shortest day in the solar system, taking about 9.9 hours to spin
-          around once on its axis. Jupiter's signature stripes and swirls are
-          actually cold, windy clouds of ammonia and water, floating in an
-          atmosphere of hydrogen and helium. The top cloud is probably made of
+          around once on its axis. 
+          The top cloud is probably made of
           ammonia ice, while the middle layer is likely made of ammonium
           hydrosulfide crystals. The innermost layer may be made of water ice
           and vapor. Jupiter’s iconic Great Red Spot is a giant storm bigger
-          than Earth that has raged for hundreds of years. With four large moons
-          and many smaller moons, Jupiter forms a kind of miniature solar
-          system.
+          than Earth that has raged for hundreds of years.
         </p>
       </section>
     </main>
-    <footer id="contact"></footer>
+    <footer id="additional">
+      <ul
+        class="flex flex-wrap justify-start gap-3 mt-5 p-5 bg-black text-white"
+      >
+        <li class="hover:underline">
+          <a
+            href="https://youtu.be/P9OG4stArmo?si=wWD28VTV2RL1RxjW"
+            target="_blank"
+            >The Gas Giants Explained</a
+          >
+        </li>
+        <li class="hover:underline">
+          <a
+            href="https://eyes.nasa.gov/apps/solar-system/#/home"
+            target="_blank"
+            >Virtual Solar System</a
+          >
+        </li>
+        
+      </ul>
+    </footer>
   </body>
 </html>
